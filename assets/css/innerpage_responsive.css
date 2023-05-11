@@ -1,0 +1,161 @@
+
+@media (min-device-width: 0px) and (max-device-width: 767px){
+    /* real account css start */
+    section .container{
+        padding: 0px 20px;
+    }
+    #inner_hero{
+        padding-top: 117px;
+    }
+    .text_img_real_spacing {
+        padding-right: 0px;
+    }
+    #text_img_real_acc {
+        padding: 40px 0px 60px 0px;
+    }
+    #real_three_box {
+        padding: 50px 0px;
+    }
+    #start_trading {
+        padding: 60px 0px;
+        background-size: inherit;
+    }
+    #start_trading .start_trading_inner{
+        padding: 0px;
+    }
+    .start_trading_inner h1{
+        font-family: Oswald;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .start_trading_inner h1{
+        font-weight: 500;
+    }
+    /* about page css start  */
+    
+    .text_img_about_left_spacing {
+        padding-left: 0px;
+    }
+    #about-us-inner{
+        padding: 40px 0px 60px 0px;
+    }
+    #start_trading_crypto_about_us {
+        padding: 60px 0px;
+    }
+    #start_trading_crypto_about_us {
+        background-size: 300%;
+        background-position: 90% 100%;
+    }
+    .start_trading_platfrom_about_us_inner h1{
+        font-weight: 500;
+    }
+    /* crypto currency page  */
+    #start_trading_crypto_curr {
+        padding: 60px 0px;
+    }
+    .start_trading_platfrom_inner h1{
+        font-weight: 500;
+    }
+    #crypto-currency-inner{
+        padding: 60px 0px;
+    }
+    /* exchange-ticker start css */
+    .common_inner_structure{
+        padding: 60px 0px;
+    }
+    /* platfrom css start  */
+    #platform_sec{
+        padding: 40px 0px 60px 0px;
+    }
+    #platform_three_box{
+        padding: 50px 0px;
+    }
+    /* swaps css start */
+    #swap_inner{
+        padding: 60px 0px;
+    }
+    /* thank-you-page-inner  css start */
+
+    .all-error-page{
+        padding: 60px 0px;
+    }
+
+    /* documents_inner faqs pages */
+    #documents_inner{
+        padding: 60px 0px;
+    }
+    /* tradind faqs pages */
+    #faqs_trading_inner{
+        padding: 60px 0px;
+    }
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 1024px){
+    /* real account css start */
+    .text_img_real_spacing {
+        padding-right: 0px;
+    }
+    #inner_hero {
+        padding-top: 132px;
+        padding-bottom: 52px;
+    }
+    .start_trading_inner h1{
+        font-weight: 500;
+    }
+    /* about page css start */
+    .text_img_about_left_spacing {
+        padding-left: 0px;
+    }
+    #about-us-inner {
+        padding: 100px 0px;
+    }
+    #start_trading_crypto_about_us{
+        padding: 100px 0px;
+        background-size: 200%;
+        background-position: 90% 100%;
+    }
+    .start_trading_platfrom_about_us_inner h1{
+        font-weight: 500;
+    }
+
+    /* crypto currency page  */
+    .start_trading_platfrom_inner h1{
+        font-weight: 500;
+    }
+    #crypto-currency-inner{
+        padding: 100px 0px;
+    }
+    #start_trading_crypto_curr{
+        padding: 100px 0px;
+    }
+
+    /* exchange-ticker start css */
+    .common_inner_structure{
+         padding: 100px 0px;
+    }
+
+    /* swaps css start */
+    #swap_inner{
+        padding: 100px 0px;
+    }
+    /* thank-you-page-inner  css start */
+
+    .all-error-page{
+        padding: 100px 0px;
+    }
+
+    /* documents_inner faqs pages */
+    #documents_inner{
+        padding: 100px 0px;
+    }
+
+    /* tradind faqs pages */
+    #faqs_trading_inner{
+        padding: 100px 0px;
+    }
+
+}

@@ -1,0 +1,444 @@
+/* hero section css start */
+#inner_hero{
+    background-image: url(../image/bg_inner.png);
+    padding-top: 170px;
+    padding-bottom: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner_sub h2{
+    margin-bottom: 35px;
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+.inner_sub a{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #0DC9B2;
+}
+.inner_sub a span{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+/* end hero section css */
+
+/* image text section :start */
+#text_img_real_acc{
+    padding: 100px 0px;
+}
+.common_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #50515E;
+}
+.text_img_real_spacing{
+    padding-right: 50px;
+}
+.text_img_real_spacing p{
+    margin-bottom: 20px;
+}
+/* image text section :end */
+
+/* three box section start */
+#real_three_box{
+    padding: 170px 0px;
+    background-image: url(../image/three_box_real_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.real_box_inner img{
+    margin-bottom: 35px;
+}
+.real_box_inner h4{
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.real_box_inner p{
+    font-size: 18px;
+    color: #EAEAEA;
+}
+.real_box_inner{
+    padding-right: 10px;
+}
+
+/* three box section start */
+
+
+/* <!-- ready to start section start --> */
+#start_trading{
+    padding: 100px 0px;
+    background-image: url(../image/real_cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#start_trading .start_trading_inner{
+    padding: 70px 0px;
+
+}
+.start_trading_inner h1{
+    font-family: Oswald;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 108px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}   
+
+.start_trading_inner p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}   
+
+
+
+/* <!-- ready to start section end --> */
+
+
+/* plateform page css  start */
+
+#platform_sec{
+    background-image: url(../image/platform-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.common_text_white {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#platform_three_box{
+    padding: 170px 0px;
+}
+#platform_three_box .real_box_inner h4 {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #2D2F3E; 
+}
+#platform_three_box .real_box_inner p{
+    font-size: 18px;
+    color: #50515E;
+}
+#start_trading_platform {
+    background-image: url(../image/platform-ready-start.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 0px 0px;
+}
+.start_trading_platfrom_inner h1{
+    font-family: Oswald;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 108px;
+    letter-spacing: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+.start_trading_platfrom_inner p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+
+/* crypto-currency-inner start */
+
+#crypto-currency-inner{
+    padding: 120px 0px 140px 0px;
+}
+.parag_spacing p{
+    margin-bottom: 20px;
+}
+#start_trading_crypto_curr{
+    background-image: url(../image/crypto-currency-start-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px;
+}
+
+/* exchange-ticker page start css */
+.common_inner_structure{
+    padding: 120px 0px 150px 0px;
+    background-image: url(../image/exchange-ticker-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* about us page css start  */
+#about-us-inner{
+    background-image: url(../image/platform-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;    
+}
+#start_trading_crypto_about_us{
+    background-image: url(../image/about-us-start-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px;
+}
+.start_trading_platfrom_about_us_inner h1{
+    font-family: Oswald;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 108px;
+    letter-spacing: 0px;
+    color: #2D2F3E;
+    margin-bottom: 30px;
+}
+.text_img_about_left_spacing{
+    padding-left:30px;
+}
+
+/* swaps css start */
+#swap_inner{
+    padding: 120px 0px 150px 0px;
+}
+
+/* thank-you-page-inner  css start */
+
+.all-error-page{
+    padding: 120px 0px 300px 0px;
+    background-image: url(../image/exchange-ticker-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.common_three h3{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+/* documents css start  */
+.qna {
+    padding: 38px 45px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 0 25px 0;
+    position: relative;
+}
+.question {
+    color: #05040E;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.qna .answer {
+    height: 0px;
+    transition: 0.3s linear;
+    overflow: hidden;
+    padding: 0;
+}
+.answer p {
+    color: #05040E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+.documents_inner {
+    padding: 120px 0px 150px 0px;
+    background-image: url(../image/exchange-ticker-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qna .question::after {
+    content: "\f105";
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 30px;
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+
+}
+.qna.active .question::after {
+    transform: rotate(90deg);
+    color: #0DC9B2;
+}
+.qna.active .question {
+    color: #0DC9B2;
+}
+h3.question:hover {
+    color: #0DC9B2;
+}
+
+/* tradind faqs pages */
+#faqs_trading_inner{
+    padding: 120px 0px 150px 0px
+}
+
+.qna-faq {
+    padding: 38px 45px;
+    background: black;
+    border-radius: 6px;
+    margin: 0 0 25px 0;
+    position: relative;
+    
+}
+.questionnew {
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.qna-faq .answer-second {
+    height: 0px;
+    transition: 0.3s linear;
+    overflow: hidden;
+    padding: 0;
+}
+.answer-second p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+.documents_inner {
+    padding: 120px 0px 150px 0px;
+    background-image: url(../image/exchange-ticker-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qna-faq .questionnew::after {
+    content: "\f105";
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 30px;
+    font-size: 28px;
+    color: #0DC9B2;
+    font-weight: 700;
+
+}
+.qna-faq.active .questionnew::after {
+    transform: rotate(90deg);
+    color: #0DC9B2;
+}
+.qna-faq.active .questionnew {
+    color: #0DC9B2;
+}
+h3.questionnew:hover {
+    color: #0DC9B2;
+}
+
+/* registration start css */
+.formbold-mb-5 label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    display: block;
+}
+.formbold-mb-5 input{
+    background: #EAEAEA;
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+.formbold-mb-5 input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+    font-weight: 400;
+}
+.registration_form{
+    
+}

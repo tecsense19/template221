@@ -88,19 +88,19 @@ opacity: 1;
 }*/
 
 #header.header-scrolled {
-/*background: #000;*/
+background: #000;
 height: 70px;
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 #header.header-scrolled a.nav-link.scrollto {
-color: #05040E;
+color: #ffffff;
 }
 
 
 
 #header.header-scrolled .logo a  {
-color: #05040E;
+color: #ffffff;
 }
 
 /*
@@ -296,12 +296,24 @@ visibility: visible;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-color: #05040E;
+color: #ffffff;
 font-size: 28px;
 cursor: pointer;
 display: none;
 line-height: 0;
 transition: 0.5s;
+    position: fixed;
+    right: 25px;
+    top: 12px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -319,32 +331,34 @@ color: #fff;
 }
 
 .navbar-mobile {
-position: fixed;
-overflow: hidden;
-top: 0;
-right: 0;
-left: 0;
-bottom: 0;
-/*background: rgba(45, 43, 70, 0.9);*/
-transition: 0.3s;
-z-index: 999;
+    position: fixed;
+    top: 45px;
+    bottom: 0;
+    z-index: 9999;
+    overflow-y: auto;
+    left: 0 !important;
+    width: 100%;
+    padding-top: 18px;
+    background: #0dc9b2;
+    transition: 0.4s;
+    right: 0;
 }
 
 .navbar-mobile .mobile-nav-toggle {
-    position: absolute;
+    /*position: absolute;
     top: 32px;
-    right: 25px;
+    right: 25px;*/
 }
 
 .navbar-mobile ul {
 display: block;
 position: absolute;
-top: 55px;
+top: 200px;
 right: 15px;
 bottom: 15px;
 left: 15px;
 padding: 10px 0;
-background-color: #fff;
+/*background-color: #fff;*/
 overflow-y: auto;
 transition: 0.3s;
 }
@@ -359,7 +373,7 @@ color: #413e66;
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-color:#dba11c;
+color:#ffffff;
 }
 
 .navbar-mobile .getstarted,
@@ -376,7 +390,7 @@ padding: 10px 0;
 z-index: 99;
 opacity: 1;
 visibility: visible;
-background: #fff;
+background: #0dc9b2;
 box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -426,52 +440,6 @@ select.selectpicker, select#format {
     color: #05040E;
     border: none;
 }
-
-/*select#format select {
-   -webkit-appearance:none;
-   -moz-appearance:none;
-   -ms-appearance:none;
-   appearance:none;
-   outline:0;
-   box-shadow:none;
-   border:0!important;
-   background: #ffffff;
-   background-image: none;
-   flex: 1;
-   padding: 0 .5em;
-       font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    color: #05040E;
-}
-select#format select::-ms-expand {
-   display: none;
-}
-.select {
-       position: relative;
-    display: flex;
-    width: 100px;
-    line-height: 3;
-    background: transparent !important;
-}
-.select::after {
-   content: '\25BC';
-   position: absolute;
-   top: 0;
-   right: 0;
-   padding: 0 1em;
-   background: #ffffff;
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
-}
-
-select#format select#format option {
-    background: #05040E;
-    color: white;
-    border-radius: 10px;
-}*/
 
 .allbtn:hover{
         background: #0BB8A3 !important;
@@ -645,17 +613,6 @@ a.sign-btn{
 }
 
 
-/*a.sign-btn:hover{
-background: transparent;
-border: 2px solid #DBA11C;
-color: #DBA11C;
-}*/
-
-
-.social1 {
-/*margin-right: 20px;*/
-}
-
 a.log-btn  {
     color: #0DC9B2;
     background: transparent;
@@ -670,11 +627,6 @@ a.log-btn  {
 
 }
 
-/*a.log-btn:hover{
-background: transparent;
-border: 2px solid #DBA11C;
-color: #DBA11C;
-}*/
 
 
 /*--------------------------------------------------------------
@@ -917,1366 +869,246 @@ ul.features ul {
     color: #2D2F3E;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*==========================================old=========================*/
-.future{
-/*background: linear-gradient(82.36deg, rgba(137, 0, 201, 0.4) 38.7%, rgba(255, 204, 255, 0.4) 76.51%);
-filter: blur(150px);
-transform: rotate(11.4deg);*/
-background:#05040E  url(../image/vector1.png);
-    padding: 100px 0;
-        background-size: cover;
-}
-
-
-
-
-
-.future_hedding h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 48px;
-color: #FFF;
-    margin: 0;
-}
-.future_hedding {
-    padding-bottom: 100px;
-}
-
-
-.future_text p{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size:20px;
-line-height: 30px;
-color: #FFF;
-    margin: 0;
-}
-
-.card_img img {
-max-width: 100%;
-padding-bottom: 25px;
-}
-
-.Advantage_text h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 45px;
-color: #FFF;
-    margin: 0;
-        margin-bottom: 22px;
-}
-
-div#Advantage_main {
-       padding: 75px 0 0;
-}
-
-.Advantage_text p{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size:20px;
-line-height: 30px;
-color: #FFF;
-    margin-bottom: 28px;
-
-}
-
-.Advantage {
-display: flex;
-align-items: center;
-}
-
-.Advantage ul{
-list-style: none;
-display: flex;
-align-items: center;
-padding: 0;
-margin: 0;
-}
-
-.Advantage ul li{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 41.6px;
-color: #FFF;
-}
-
-img.orderimg {
-    padding-left: 60px;
-}
-
-.Advantage ul li img {
-    padding-right: 30px;
-}
-
-/*.Advantage img {
-max-width: 100%;
-}
-*/
-
-.Advantage_two {
-    padding-top: 50px;
-}
-
-.Advantage_two img {
-max-width: 100%;
-    padding-right: 30px;
-}
-
-.Advantage_two ul {
-list-style: none;
-display: flex;
-justify-content: center;
-padding: 0; 
-align-items: center;
-}
-
-.Advantage_two ul li{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 41.6px;
-color: #FFF;
-}
-
-
-
-a.btn-get-started1{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 2px;
-color: #FFFFFF;
-text-decoration:none;
-background: #A410FF;
-border-radius: 100px;
-padding: 13px 45px;
-display: inline-block;
-/*border: 1px solid transparent;*/
-}
-
-/*
-a.btn-get-started.scrollto:hover{
-background: transparent;
-border: 1px solid #DBA11C;
-}*/
-
-section.crypto {
-    padding: 0px 0 100px;
-/*    background: url(../image/vector2.png);*/
+.bill-customor {
+       padding: 100px 0 0;
+    background-image: url(../image/a9.png);
     background-size: cover;
-        position: relative;
-            z-index: 1;
+    background-repeat: no-repeat;
 }
-/*.crypto::before {
-    content: "";
-    position: absolute;
-    top: 0;
+
+.bill-title.title h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.billbutton a {
+    font-size: 16px;
+    padding: 12px 27px;
     width: 100%;
-    z-index: -111;
-    background-repeat: no-repeat;
+    font-weight: 400;
+}
+div#thiredbtn a {
+    width: 48%;
+    margin-top: 15px;
+}
+.billimg {
+    margin-top: 25px;
+}
+
+.bill-crypto {
+       padding: 100px 0px;
+}
+
+.starttrading {
+       padding: 150px 0 ;
+    background-image: url(../image/a12.png);
     background-size: cover;
-    background: linear-gradient(82.36deg, rgba(137, 0, 201, 0.4) 38.7%, rgba(255, 204, 255, 0.4) 76.51%);
-    filter: blur(150px);
-    transform: rotate(-165deg);
-    left: 0;
-    right: 0;
-    bottom: 0;
-}*/
-.crypto::before {
-    background: url(../image/vector2.png);
-    content: "";
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    left: 0;
-    right: -230px;
-    background-size: cover;
-    filter: blur(150px);
-    transform: rotate(5deg);
-    z-index: -1;
-    background-position: bottom right;
     background-repeat: no-repeat;
 }
 
-
-.crypto_main {
-background: #FFF;
-border-radius: 40px;
-padding: 74px 57px 86px 48px;
+.start-title.title h1 {
+    font-size: 90px;
+    color: white;
+}
+.start-title.title p {
+    color: #eaeaea;
+    padding: 50px 200px;
 }
 
-.crypto_main h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 48px;
-color: #05040E;
-}
-
-.crypto_main p{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-color: #05040E;
-margin: 0px;
-}
-
-.crypto_img img {
-max-width: 100%;
-}
-
-
-.interest{
-padding:  0;
-    padding-bottom: 100px;
-}
-
-.interest_text h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 48px;
-color: #FFF;
-text-align: center;
-margin: 0;
-    padding-bottom: 50px;
-}
-
-.interest_two img {
-    max-width: 100%;
-}
-
-.trading{
-padding:0;
-position: relative;
-    padding-top: 50px;
-}
-section.trading::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(82.36deg, rgba(137, 0, 201, 0.4) 38.7%, rgba(255, 204, 255, 0.4) 76.51%);
-     filter: blur(150px); 
-     transform: rotate(-165deg); 
-    z-index: -1;
-/*    background: url(../image/vector2.png);*/
-    background-size: cover;
-}
-
-
-.tranding_text{
-background: #FFF;
-border-radius: 40px;
-/*padding: 81px 37px 126px 60px;*/
-    padding: 115px  50px;
-}
-
-.tranding_text h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 48px;
-color: #05040E;  
-    margin-bottom: 50px; 
-}
-
-.tranding_btn {
-/*    padding-top: 30px;*/
-    margin: 0 auto;
-/*    width: 43%;*/
-    position: relative;
-    z-index: 11;
-}
-
-.tranding_btn1 {
-/*    padding-top: 30px;*/
-}
-
-a.btn-mobile{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #FFFFFF;
-text-decoration:none;
-background: #A410FF;
-border-radius: 100px;
-padding: 10px 40px;
-display: inline-block;
-/*border: 1px solid transparent;*/
-}
-
-a.btn-WebTrader{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #FFFFFF;
-text-decoration:none;
-background: #A410FF;
-border-radius: 100px;
-padding: 10px 40px;
-display: inline-block;
-/*border: 1px solid transparent;*/
-}
-
-.mainbtn {
-display: flex;
-justify-content: space-between;
-    padding-bottom: 25px;
-}
-
-.tranding_img img {
-max-width: 100%;
-}
-
-.tranding_img {
-position: absolute;
-left: 340px;
-margin: 0 auto;
-text-align: center;
-width: 100%;
-top: -80px;
-bottom: 0;
-}
-
-#tranding{
-    position: relative;
-}
-
-.steps{
-padding:100px 0;
-}
-
-#space_steps{
-justify-content: space-between;
-padding-top:50px;
-}
-
-.start h2{
-padding-bottom:100px ;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 48px;
-color: #FFF;  
-text-align: center;
-    margin: 0;
-
-}
-
-
-.stepmain h3{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 41.6px;
-color: #FFF;  
-    margin: 0;
-     margin-bottom: 15px !important;
-}
-
-.stepmain p{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-color: #FFF;  
-    margin: 0;
-}
-
-.step_btn {
-    text-align: center;
-           padding-top: 50px;
-}
-
-a.btn-get2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #FFFFFF;
-text-decoration:none;
-background: #A410FF;
-border-radius: 100px;
-padding:13px 45px;
-display: inline-block;
-/*border: 1px solid transparent;*/
-}
-.step_img {
-    padding-bottom: 50px;
-}
-.step_img img {
-    position: absolute;
-    left: 0;
-}
 
 
 footer#footer {
-background: #1C0E33;
+background: #000000;
 padding-top: 100px;
-padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
-.footer_image img.img1 {
-    margin-bottom: 25px;
+.footermail {
+margin-bottom: 15px;
 }
 
-.footer-text p{
-font-family: 'Roboto', sans-serif;
+.footer-info img {
+margin-bottom: 30px;
+}
+
+.footer-info .footermail a{
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #888888;  
+font-size: 14px;
+color: #FFFFFF;
+text-decoration: none;
 }
 
 
-div#footer1 {
-    padding: 50px 0;
+.footer-info p{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
 }
+
 
 .footer-links h4{
-font-family: 'Roboto', sans-serif;
+font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 font-size: 18px;
-line-height: 27px;/*
+line-height: 150%;/*
 display: flex;
 align-items: center;*/
 color: #FFFFFF;
-    margin-bottom: 15px;
-}
-
-
-.footer-links ul {
-    padding: 0;
 }
 
 
 .footer-links ul li {
 list-style: none;
-font-family: 'Roboto', sans-serif;
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #FFF;
-    padding: 0;
-    cursor: pointer;
-    margin-bottom: 5px;
+font-size: 14px;
+line-height: 150%;
+color: #B5B5B5;
+    padding: 10px 0 0 0;
+        cursor: pointer;
 }
-.footer-links ul li:hover, .footer-policy ul li a:hover{
-    color:#A410FF;
+.footer-links ul li a{
+ list-style: none;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #B5B5B5;
+cursor: pointer;
+text-decoration: none;
 
 }
-
-.footer-top .container {
-    position: relative;
+.footer-links ul li a:hover, .logotext p a:hover, .footermail a:hover{
+color:#0BB8A3;
 }
 
-.footer-policy ul {
+.footer-links ul {
 padding: 0;
-list-style: none;
+}
+
+
+.logotext p {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;/*
 display: flex;
-align-items: center;
-justify-content: space-between;
+align-items: center;*/
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 margin: 0;
 }
 
-
-.footer-policy ul li a{
-    text-decoration: none;
-font-family: 'Roboto', sans-serif;
+.logotext p a{
+font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-color: #FFF;
-cursor: pointer;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+margin: 0;
+    text-decoration: none;
+}
+.priv {
+display: flex;
+justify-content: space-between;
 }
 
+.footer-warning h6{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
 
-.copyright {
-    text-align: center;
-    padding-top: 50px;
+.footer-warning p{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #B5B5B5;
 }
 
 .copyright p{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight:700;
-font-size: 18px;
-line-height:27px;
-color: #FFFFFF;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ul.trand1 {
-    justify-content: space-around;
-    display: flex;
-    list-style: none;
-        padding: 0;
-}
-
-.intro {
-/*      padding-right: 50px;*/
-    padding-left: 140px;
-   margin-top: 25px;
-}
-
-section#trand {
-    margin-top: -150px;
-}
-
-ul.trand1 li {
-}
-
-ul.trand1 li {
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-    line-height: 15PX;
-color: #263238;
-}
-
-ul.trand1 li span.eur{
-font-family: 'Play', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 150%;
-color: #66BB6A;
-}
-
-ul.trand1 li span.use{
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-line-height: 150%;
-/*display: flex;
-align-items: flex-end;
-text-align: right;*/
-color: #66BB6A;
-display: inline-block;
-    padding-top: 13px;
-}
-
-
-ul.trand1 li span.nastes{
-font-family: 'Play', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 150%;
-color: #EF5350;
-}
-
-
-ul.trand1 li span.power{
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-line-height: 150%;
-/*display: flex;
-align-items: flex-end;
-text-align: right;*/
-color: #66BB6A;
-display: inline-block;
-    padding-top: 13px;
-}
-
-#trand .deta{
-    border-right:none;
-}
-
-#trand .deta:first-child  {
-    border-left: 2px solid  #263238;
-}
-
-
-.investtext h2{
-font-family: "Open Sans", sans-serif;
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-    margin-bottom: 15px;
-}
-
-
-.investtext p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 60px;
-}
-
-
-
-.invest a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
-}
-
-
-
-.invest a.start-trand-btn:hover{
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
-}
-
-
-
-.Exp-counter p {
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #566175;
-    margin-top: 25px;
-}
-
-.Exp-counter {
-    border: 1px solid #DBA11C;
-    margin: 15px 3px;
-    padding: 38px 0px;
-      transition: all 200ms ease-in;
-          background: #fff;
-}
-
-.Exp-counter:hover{
-
-/*    box-shadow: 0px 0px 10px #566175;*/
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
-    transform: scale(1.1);
-
-}
-
-section.invest {
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-
-section.stepsmain{
-  background:  url(../img/steps1.png);
-      padding-top: 100px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.rest {
-    display: flex;
-}
-
-
-/*.step1 {
-    margin: 0 10px 0 0px;
-
-}*/
-
-/*.step1 span{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #000000;
-background: #DBA11C;
-}*/
-
-.register h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #DBA11C;
-}
-
-.register p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-    padding-right: 112px;
-}
-
-.stepright h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+font-size: 14px;
 color: #FFFFFF;
 }
-
-.stepright p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
+.copyright {
+        margin-top: 50px;
+    border-top: 1px solid #494949;
+    padding: 25px 0;
 }
 
 
-.register span {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #000000;
-    background: #DBA11C;
-    padding: 5px 9px 5px 13px;
-    border-radius: 30px;
-    margin: 0 5px 0px 0px;
-
-}
-
-.stepsmain .col-lg-5.col-md-6 {
-    padding: 0;
-}
-
-.stepsleft {
-    position: relative;
-}
-
-.stepsleft:after {
-    content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 230px;
-    width: 1px;
-    right: -100px;
-    bottom: -171px;
+div#footerlogo {
+border-top: 1px solid #494949;
+padding: 30px 0;
 }
 
 
-.row.counters.aos-init.aos-animate {
-    position: relative;
+div#footer1 {
+padding-bottom: 50px;
+}
+
+div#footer3 {
+padding: 10px 0 0px 0;
+}
+.col-lg-2.mobile2 {
+display: none;
 }
 
 
-.row.counters:after {
-     content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 167px;
-    width: 1px;
-    /* top: 0; */
-    bottom: -204px;
-    left: -100px;
+img.ipedmain {
+display: none;
 }
 
-.confident1{
-   position: relative;
-}
-
-
-.confident1:after {
-  content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 180px;
-    width: 1px;
-    top: -132px;
-    bottom: 0px;
-    right: -10px;
-}
-
-/*div#footer1:after {
-    content: "";
-    background: url(../img/footerf.png) no-repeat;
-    background-position: top right;
-    position: absolute;
-    height: 97%;
-    width: 64px;
-    rotate: 0;
-    right: -30px;
-}*/
-/*
-div#footer1{
-     position: relative;
-}
-*/
-
-section.instrument-sec {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-.step2 {
-    text-align: right;
-}
-
-
-.step1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-    margin-bottom: 15px;
-
-}
-
-.step1 p{
-font-family: "Open Sans", sans-serif; 
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-    margin-bottom: 60px;
-}
-
-
-
-.instrument-sec a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-    background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
-}
-
-.instrument-sec a.start-trand-btn:hover {
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
-}
-
-.appstext h2{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-bottom: 15px;
-}
-
-/*.mobile{
-padding-right: 49px;
-}*/
-
-
-section.brand-name .col-lg-5.col-md-10 {
-    padding-right: 0;
-}
-
-.appstext p{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 50px;
-}
-
-.app2 p{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #3C557A;
-border: 3px solid #DBA11C;
-border-radius: 10px;
-padding: 7px 30px;
-    margin-right: 15px;
-}
-
-.app2 p:hover{
-border: 3px solid transparent;
-background: #DBA11C;
-color: #fff;
-}
-
-
-.app2 {
-    display: inline-block;
-    width: 45%;
-}
-
-
-section.apps .row {
-    align-items: center;
-}
-
-
-section.apps{
-    background:url(../img/count.png);
-        background-repeat: no-repeat;
-/*      padding-top: 100px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;*/
-}
-
-.protect h2{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.protect p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-color: #FFFFFF;
-    margin-bottom: 50px;
-}
-
-div#insta {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.count1 span{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 120%;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-}
-
-.count1 h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-
-.profit-main{
- background:url(../img/group5.png);
-     background-repeat: no-repeat;
-     padding-top: 130px;
-    padding-bottom: 100px;
-    margin-top: -60px;
-}
-
-.profit1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-    padding-top: 50px;
-        margin-bottom: 15px;
-}
-
-.profit1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-}
-
-
-
-.profit2 a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      margin-bottom :20px;
-      border: 1px solid transparent;
-} 
-
-.profit2 a.start-trand-btn:hover{
-background: transparent;
-  border: 1px solid #DBA11C;
-
-}
-
-section.profit-main .row {
-    align-items: end;
-}
-
-
-div#perfect {
-    text-align: end;
-}
-
-.brand-name{
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-.brand1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-top: 10px;
-}
-
-
-.brand1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-top: 15px;
-}
-
-
-.diposeble{
-background:url(../img/depositphotos.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-            padding: 50px 143px 77px 50px;
-}
-
-.brand3{
-background:url(../img/depositphotos1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-        padding: 50px 145px 50px 50px;
-
-}
-
-
-.diposeble h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.diposeble p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-margin: 0;
-}
-
-.brand3 h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.brand3 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-margin: 0;
-}
-
-
-section.brandsec{
-  padding-bottom: 100px;
-}
-
-
-
-
-.confident-btn a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none; 
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      margin-bottom :20px;
-      border:1px solid transparent;
-}
-
-
-.confident-btn a.start-trand-btn:hover {
-border:1px solid #DBA11C;
-background: transparent;
-}
-
-
-.confident-main{
-background:url(../img/foot.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.confident1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-    margin-bottom: 20px;
-        padding-top: 80px;
-}
-
-
-
-.confident1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-section.confident-main .row {
-    align-items: center;
-}
-
-/*
-.confident-main{
-background:url(../img/depositphotos2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-.mobileline{
+.mobileshow {
     display: none;
 }
+.pricimg-title.title {
+    margin-bottom: 50px;
+}
+.footermobile {
+    display: none;
+}
+.footerdektop {
+    display: block;
+}
 
 
+
+
+
+
+
+/*===========================Responsive css============================*/
 
 @media (min-device-width: 100px) and (max-device-width: 767px){
+
+    img{
+        max-width: 100%;
+    }
 
 p{
     font-size: 18px;
 }
     #header{
-            padding: 0 15px;
+/*            padding: 0 15px;*/
+    height: 50px;
+        background: #000;
     }
     .navbar {
     padding: 0;
@@ -2285,6 +1117,11 @@ p{
 section#hero {
     padding-right: 15px;
     padding-left: 15px;
+    padding: 100px 0;
+}
+.introtext {
+    text-align: left;
+    margin-top: 25px;
 }
 
 .back-to-top{
@@ -2298,6 +1135,53 @@ header#header .container {
 header#header .me-auto {
     margin-right: unset!important;
 }
+.navbar .mobileshow {
+    opacity: 0;
+}
+.mobileshow {
+    position: absolute;
+/*    padding: 25px;*/
+    width: 100%;
+    top: 0;
+    background: #000000;
+    border-radius: 0px;
+    display: block;
+}
+.navbar-mobile .mobileshow {
+    opacity: 1;
+}
+.mobileshow .social2 {
+    display: block;
+   margin-bottom: 15px;
+}
+.social2 {
+    padding: 0 10px;
+    padding-right: 10px;
+}
+.mobileshow .social1 {
+    display: block;
+    margin-bottom: 10px;
+}
+.mobileshow .language {
+    display: block;
+/*    padding: 6px 20px;*/
+}
+nav#navbar {
+    left: -260px;
+}
+#header.header-scrolled{
+        background: #000;
+    height: 50px;
+}
+select#format {
+    padding: 15px;
+    width: 100%;
+    background: #0dc9b2;
+    color: white;
+/*  margin-bottom: 15px;*/
+}
+
+
 
 #header.header-transparent {
     background: #01090B;
@@ -2313,201 +1197,6 @@ header#header .me-auto {
 .herobtn {
     padding: 25px 0;
 }
-div#safemain{
-    padding-bottom: 25px;
-}
-.section_two img {
-    max-width: 70%;
-    text-align: center;
-}
-.section_two {
-    position: absolute;
-    right: 0;
-    text-align: center;
-    margin-top: 0;
-}
-
-
-a.btn-get-started.scrollto{
-      padding: 16px 61px;
-          width: 100%;
-}
-.main_products {
-    display: block;
-    text-align: center;
-}
-.products {
-    padding: 0 89px;
-}
-section#timer {
-    margin-top: 115px;
-}
-section#timer img {
-   max-width: 100%;
-}
-.future,div#Advantage_main{
-    padding  : 50px 0;
-}
-.future_hedding,.future_text p {
-    padding-bottom: 15px;
-}
-.future_hedding h2,.Advantage_text h2,.crypto_main h2,.interest_text h2,.tranding_text h2{
-        font-size: 32px;
-    line-height: 36px;
-}
-.Advantage_button {
-    padding: 15px 0;
-}
-.Advantage ul {
-    margin-bottom: 25px;
-}
-section.future {
-    padding-bottom: 0;
-}
-.Advantage_text h2,.Advantage_text p{
-margin-bottom: 15px;
-}
-.allbtn {
-   width: 100%;
-}
-.Advantage {
-    margin-top: 25px;
-}
-.Advantage {
-    display: block;
-}
-
-img.orderimg {
-    padding-left: 0;
-}
-.Advantage_two ul{
-        justify-content: flex-start;
-}
-.Advantage_two {
-    padding-top: 15px;
-}
-.crypto_img {
-    margin-top: 15px;
-}
-section.crypto{
-    padding-bottom: 50px;
-}
-.interest {
-    padding: 0;
-    padding-bottom: 50px;
-}
-.tranding_text{
-    padding-bottom: 50px; 
-}
-
-
-.intro{
-  padding-right: 15px;
-    padding-left: 0px;
-    margin-top: 0;
-}
-.crypto_main{
-    padding-bottom: 50px ;
-}
-.mainbtn {
-    display: block;
-        padding-bottom: 0;
-    }
-    a.btn-mobile,a.btn-WebTrader{
-        margin-bottom: 15px;
-        font-size:  16px;
-    }
-    a.btn-mobile, a.btn-WebTrader {
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-    .trading {
-    padding: 0 15px; 
-}
-.tranding_img img {
-    max-width: 100%;
-    margin-top: 50px;
-}
-.tranding_text{
-        padding: 50px 50px;
-}
-.start h2 {
-   
-}
-.step_img {
-    padding-bottom: 0px;
-        display: none;
-}
-#space_steps{
-        padding: 0 15px;
-}
-
-.step_btn {
-    padding-left: 0;
-    padding-right: 0;
-}
-.mobileline{
-    display: block;
-}
-.tranding_img {
-    position: unset;
-    left: unset;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    top: unset;
-    bottom: unset;
-}
-section.trading::after,.crypto::before{
-        display: none;
-}
-.footer-policy ul{
-        display: block;
-}
-.stepmain img {
-    margin-bottom: 25px;
-        width: 100%;
-}
-.stepmain {
-    text-align: center;
-}
-.stepmain {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-footer#footer {
-    padding-top: 0 !important;
-    padding-bottom: 50px;
-        background: #05040e;
-}
-.footer_image {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-div#back .footer-links {
-    display: block;
-    width: 100%;
-}
-div#footer1 .col {
-    width: 100% !important;
-    display: block !important;
-    flex: unset;
-}
-
-.footer-links {
-    display: none;
-}
-
-.footer_image {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.copyright p{
-        text-align: left;
-}
-
 
 .social1{
 display: none;
@@ -2518,6 +1207,104 @@ display: none;
 
 .language {
     display: none;
+}
+
+.start-title.title p {
+    color: #eaeaea;
+    padding: 15px;
+}
+
+section.stocktrading {
+    padding: 50px 0;
+}
+.title h1{
+        font-size: 32px;
+            line-height: 42px;
+}
+.title p{
+        font-size: 16px;
+}
+a.allbtn{
+     font-size: 16px;
+}
+.stockbox {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+section.simply{
+    padding: 50px 0;
+}
+.corresponding {
+    padding-top: 100px;
+}
+section.debit {
+    padding-top: 50px;
+}
+.simply-title.title ul li{
+    font-size: 16px;
+}
+.pricing-plans{
+    padding: 50px 0 ;
+}
+
+.pricing-card.basic {
+    margin-bottom: 25px;
+}
+.pricing-card .price{
+    font-size: 50px;
+    line-height: 80px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+.bill-customor{
+    padding: 50px 0;
+}
+.bill-title.title {
+    margin-bottom: 25px;
+}
+.billbutton {
+    margin-bottom: 25px;
+}
+div#thiredbtn a {
+    width: 100%;
+    margin-top: 0;
+}
+.bill-crypto,.starttrading {
+    padding: 50px 0px;
+}
+.start-title.title h1 {
+    font-size: 33px; 
+    }
+    footer#footer{
+        padding-top: 50px;
+    }
+
+
+.footermobile {
+    display: block;
+}
+.footerdektop {
+    display: none;
+}
+
+.priv {
+    display: block;
+    justify-content: space-between;
+}
+.footer-info img {
+    margin-bottom: 21px;
+}
+div#footer1 {
+    padding-bottom: 25px;
+}
+.logoimg {
+    margin-top: 25px;
+}
+.logotext {
+    padding-bottom: 15px;
+}
+.footer-warning {
+    margin-bottom: 15px;
 }
 
 
@@ -2569,201 +1356,6 @@ header#header .me-auto {
 .herobtn {
     padding: 25px 0;
 }
-div#safemain{
-    padding-bottom: 25px;
-}
-.section_two img {
-    max-width: 70%;
-    text-align: center;
-}
-.section_two {
-    position: absolute;
-    right: 0;
-    text-align: center;
-    margin-top: 0;
-}
-
-
-a.btn-get-started.scrollto{
-      padding: 16px 61px;
-/*          width: 100%;*/
-}
-.main_products {
-    display: block;
-    text-align: center;
-}
-.products {
-/*    padding: 0 89px;*/
-}
-section#timer {
-    margin-top: 115px;
-}
-section#timer img {
-   max-width: 100%;
-}
-.future,div#Advantage_main{
-    padding  : 50px 0;
-}
-.future_hedding,.future_text p {
-    padding-bottom: 15px;
-}
-.future_hedding h2,.Advantage_text h2,.crypto_main h2,.interest_text h2,.tranding_text h2{
-        font-size: 32px;
-    line-height: 36px;
-}
-.Advantage_button {
-    padding: 15px 0;
-}
-.Advantage ul {
-    margin-bottom: 25px;
-}
-section.future {
-    padding-bottom: 0;
-}
-.Advantage_text h2,.Advantage_text p{
-margin-bottom: 15px;
-}
-.allbtn {
-/*   width: 100%;*/
-}
-.Advantage {
-    margin-top: 25px;
-}
-.Advantage {
-    display: block;
-}
-
-img.orderimg {
-    padding-left: 0;
-}
-.Advantage_two ul{
-        justify-content: flex-start;
-}
-.Advantage_two {
-    padding-top: 15px;
-}
-.crypto_img {
-    margin-top: 15px;
-}
-section.crypto{
-    padding-bottom: 50px;
-}
-.interest {
-    padding: 0;
-    padding-bottom: 50px;
-}
-.tranding_text{
-    padding-bottom: 50px; 
-}
-
-
-.intro{
-  padding-right: 15px;
-    padding-left: 0px;
-    margin-top: 0;
-}
-.crypto_main{
-    padding-bottom: 50px ;
-}
-.mainbtn {
-    display: block;
-        padding-bottom: 0;
-    }
-    a.btn-mobile,a.btn-WebTrader{
-        margin-bottom: 15px;
-        font-size:  16px;
-    }
-    a.btn-mobile, a.btn-WebTrader {
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-    .trading {
-    padding: 0 15px; 
-}
-.tranding_img img {
-    max-width: 100%;
-    margin-top: 50px;
-}
-.tranding_text{
-        padding: 50px 50px;
-}
-.start h2 {
-   
-}
-.step_img {
-    padding-bottom: 0px;
-        display: none;
-}
-#space_steps{
-        padding: 0 15px;
-}
-
-.step_btn {
-    padding-left: 0;
-    padding-right: 0;
-}
-.mobileline{
-    display: block;
-}
-.tranding_img {
-    position: unset;
-    left: unset;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    top: unset;
-    bottom: unset;
-}
-section.trading::after,.crypto::before{
-        display: none;
-}
-.footer-policy ul{
-        display: block;
-}
-.stepmain img {
-    margin-bottom: 25px;
-        width: 100%;
-}
-.stepmain {
-    text-align: center;
-}
-.stepmain {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-footer#footer {
-    padding-top: 0 !important;
-    padding-bottom: 50px;
-        background: #05040e;
-}
-.footer_image {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-div#back .footer-links {
-    display: block;
-    width: 100%;
-}
-div#footer1 .col {
-    width: 100% !important;
-    display: block !important;
-    flex: unset;
-}
-
-.footer-links {
-    display: none;
-}
-
-.footer_image {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.copyright p{
-        text-align: left;
-}
-
 
 .social1{
 display: none;
@@ -2777,700 +1369,15 @@ display: none;
 }
 
 
+.footermobile {
+    display: block;
 }
-
-
-
-/*----------------------------------------------------- ACCOUNT INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-#header.header-transparent {
-    background: #000;
-}
-
-.inner-header {
-    background: #000 !important;
-}
-
-#account {
-    padding-bottom: 100px;
-    background: #000 url(../img/Withdrawal1.png);
-    background-position: 20% 100%;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-}
-
-.account-left {
-    padding-top: 70px;
-        position: relative;
-    top: -50px;
-}
-
-
-.account-left p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #FFFFFF;
-}
-
-.account-right h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: relative;
-    top: -65px;
-}
-section#about-account {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-
-.confidentli1 h2 {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height:52px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-bottom: 20px;
-}
-
-.confidentli1 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #566175;
-}
-
-
-section.confidentli {
-      background: url(../img/Rectangle9.png);
-          background-repeat: no-repeat;
-    padding-top: 73px;
-    padding-bottom: 100px;
-}
-
-
-section.confidentli .row {
-    align-items: center;
-}
-
-.breadcrumbs ol{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 150%;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-}
-
-.breadcrumbs {
-    padding: 15px 0;
-    padding-bottom: 80px;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-/*    font-size: 14px;*/
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-  padding-right: 5px;
-    color: #FFFFFF;
-    content: "/";
-}
-
-.breadcrumbs ol li a{
-  text-decoration: none;
-color: #DBA11C;
-padding-right: 5px;
-}
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-.confidentli2 img {
-    max-width: 100%;
-}
-
-
-.account-right h2{
-  font-size: 26px;
-}
-
-.account-left {
-     padding-top: 0px; 
-    position: unset; 
-    top: 0px;
-}
-
-
-#account {
-     padding-bottom: 50px; 
-    background: #000 url(../img/Withdrawal1.png);
-    background-position: unset;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-}
-
-section#about-account {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-section.confidentli {
-    background: url(../img/Rectangle9.png);
-    background-repeat: no-repeat;
-  padding-top: 0px; 
-    padding-bottom: 0px; 
-
-}
-
-
-.confidentli1 h2{
-    font-size: 26px;
-    line-height: 35px;
-    margin-bottom: 10px;
-
-}
-
-}
-
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-
-
-.confidentli2 img {
-    max-width: 100%;
-}
-
-section.confidentli{
- padding-bottom:0PX;
-}
-
-section#about-account{
-  padding-bottom: 0px;
-}
-
-
-.breadcrumbs{
-  padding-top: 0;
-}
-
-#account{
-  padding-bottom: 0;
-}
-}
-
-
-
-
-
-
-/*----------------------------------------------------- platform INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-.platform{
-   background: url(../img/Rectangle8.png);
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;   
-    background-size: cover;
-}
-
-
-.platform2 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;/*
-display: flex;
-align-items: center;
-text-align: center;*/
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-
-.platform2 {
-    padding-bottom: 100px;
-}
-
-#breadcrumbs1 {
-    padding: 15px 0;
-    padding-bottom: 50px;
-}
-
-.platetext1 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-}
-
-.platetext1{
-  padding-bottom: 30px;
-}
-
-section.platetext{
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-.platefrom2 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #fff;
-}
-
-.platefrom2 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #fff;
-}
-
-
-
-section#paltefrom-main{
-   background: url(../img/group9.png);
-       background-size: 100% 100%;
-           background-repeat: no-repeat;
-               background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 245px;
-    padding-bottom: 92px;
-}
-
-
-section#paltefrom-main .row {
-    align-items: center;
-}
-
-
-.platefromimg img {
-    max-width: 100%;
-}
-
-.platimg img {
-    max-width: 100%;
-}
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.platform2 h2{
-    font-size: 26px;
-}
-
-.platform2 {
-    padding-bottom: 20px;
-}
-
-
-.platimg img {
-     max-width: 100%; 
-}
-
-.platefromimg img {
-    max-width: 100%;
-}
-
-section.platetext{
-    padding-bottom: 50px;
-}
-
-section#paltefrom-main{
-    background: #000 url(../img/group9.png);
-        padding-top: 0px;
-            padding-bottom: 0px;
-}
-
-.platefrom2 h2{
-      font-size: 26px;
-}
-
-
-.platform {
-  padding-bottom: 50px;
-}
-
-
-
-}
-
-
-
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-  
-
-.platimg img {
-     max-width: 100%; 
-}
-
-.platefromimg img {
-    max-width: 100%;
-}
-section#paltefrom-main {
-    background: #000 url(../img/group9.png);
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.platefrom2 p {
-    margin-bottom: 50px;
-  }
-
-
-
-}
-
-
-
-
-
-/*----------------------------------------------------- TRAIDING INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-/*#tranding{
-  background: url(../img/group45.png);
-      background-repeat: no-repeat;
-
-    padding-bottom: 170px;   
-    background-size: cover;
-        margin-top: 90px;
-}*/
-
-.platform1 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 100px;
-}
-
-.platform1 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-}
-
-section.about-account1{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-section#mobileappp-2 {
-  padding-bottom: 100px;
-}
-
-
-.appstext5 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-}
-
-
-.appstext5 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-}
-
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.platform1 h2 {
-    padding-bottom: 20px;
-        font-size: 26px;
-}
-
-/*#tranding {
-    padding-bottom: 50px;
-  }*/
-
-  section.about-account1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.appstext5 h2 {
-   font-size: 26px;
-    color: #fff;
-}
-.appstext5 p{
-   color: #fff;
-}
-section#mobileappp-2 {
-    padding-bottom: 0px;
-}
-
-}
-
-@media (min-device-width: 768px) and (max-device-width: 1024px){
-.platform1 h2 {
-    padding-bottom: 50px;
+.footerdektop {
+    display: none;
 }
 
-section#mobileappp-2 {
-    padding-bottom: 0px;
-}
-/*
-#tranding {
-    padding-bottom: 100px;
-  }*/
-
-}
-
-
-/*----------------------------------------------------- TRAIDING INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-#ticker{
-  background: url(../img/Rectangle217.png);
-      background-repeat: no-repeat;
-  background-size:cover;
-  padding-top: 100px;
-    padding-bottom: 100px;
-
-}
-
-
-.tickertex h2{
-color: #fff;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.tickerimages img {
-    max-width: 100%;
-}
-
-section#ticker2 {
-padding-top:100px;
-    padding-bottom:100px;
-}
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.tickertex h2 {
-        font-size: 26px;
-}
-
-ticker {
-    padding-bottom: 50px;
-}
-
-section#ticker2 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-}
-
-
-/*----------------------------------------------------- COMPANY INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-#company-1{
-  background: url(../img/group12.png);
-      background-repeat: no-repeat;
-  background-size:cover;
-  padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-
-.company-text h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 100px;
-}
-
-.company-text p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-}
 
-.getprofit1 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
 }
 
-.getprofit1 p{
-  font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 30px
-}
-
-section#secondsec {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#secondsec a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
-}
-
-
-
-#secondsec a.start-trand-btn:hover{
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
-}
-
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-.getprofitimg img {
-    max-width: 100%;
-}
-
-.company-text h2 {
-    padding-bottom: 50px;
-     font-size: 26px;
-}
 
-.getprofit1 h2{
-  font-size: 26px;
-}
-
-section#secondsec {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.getprofit1 {
-  padding-top: 50px;
-}
-
-#secondsec a.start-trand-btn {
-    padding: 16px 61px;
-    margin-bottom: 30px;
-}
-
-}
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px){
-.getprofitimg img {
-    max-width: 100%;
-}
 
-.company-text h2 {
-    padding-bottom: 50px;
-}
-
-
-
-}

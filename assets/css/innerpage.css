@@ -231,7 +231,7 @@
     margin-bottom: 30px;
 }
 .text_img_about_left_spacing{
-    padding-left:30px;
+/*    padding-left:30px;*/
 }
 
 /* swaps css start */
@@ -258,7 +258,7 @@
 
 /* documents css start  */
 .qna {
-    padding: 38px 45px;
+    padding: 25px;
     background: #FFFFFF;
     border-radius: 20px;
     margin: 0 0 25px 0;
@@ -270,9 +270,8 @@
     user-select: none;
     transition: color 0.3s;
     display: flex;
-    align-items: center;
+/*    align-items: center;*/
     margin: 0;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -363,6 +362,7 @@ h3.question:hover {
     transition: 0.3s linear;
     overflow: hidden;
     padding: 0;
+        padding-right: 15px;
 }
 .answer-second p {
     color: white;

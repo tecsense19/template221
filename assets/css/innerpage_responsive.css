@@ -91,6 +91,27 @@
     #faqs_trading_inner{
         padding: 60px 0px;
     }
+    .inner_sub h2{
+            font-size: 32px;
+                margin-bottom: 15px;
+    }
+    #start_trading_platform{
+        padding: 50px 0 0;
+    }
+    .start_trading_platfrom_inner h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+.start_trading_platfrom_inner a {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.start_trading_platfrom_about_us_inner h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
 }
 
 
@@ -157,5 +178,21 @@
     #faqs_trading_inner{
         padding: 100px 0px;
     }
+    #platform_sec,#platform_three_box{
+        padding: 50px 0;
+    }
+    #start_trading_platform{
+        padding-top:50px;
+    }
+    .start_trading_platfrom_inner h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+}
+.start_trading_platfrom_about_us_inner h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
 
 }

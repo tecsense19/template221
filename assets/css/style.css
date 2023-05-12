@@ -1360,7 +1360,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 section.stocktrading .title p {
-    padding: 25px 40px 0px 0px;
+    padding: 25px 40px 25px 0px;
 }
 .r-text p {
     padding-right: 50px;

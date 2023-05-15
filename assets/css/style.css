@@ -1365,6 +1365,13 @@ section.stocktrading .title p {
 .r-text p {
     padding-right: 50px;
 }
+.r-bitton.text-cenetr {
+    text-align: center;
+}
+input#checkbox1 {
+    margin-right: 8px;
+    text-align: left;
+}
 
 
 
